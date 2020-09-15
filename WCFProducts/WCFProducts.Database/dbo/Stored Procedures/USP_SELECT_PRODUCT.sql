@@ -1,0 +1,8 @@
+﻿
+CREATE PROCEDURE USP_SELECT_PRODUCT
+	@ID INT
+AS
+	SET NOCOUNT ON;
+
+	SELECT * FROM [dbo].[Products]
+	WHERE [id] = @ID;
