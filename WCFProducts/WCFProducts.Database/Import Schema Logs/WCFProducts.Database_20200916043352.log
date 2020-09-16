@@ -1,0 +1,84 @@
+16/09/2020 01:33:52	This log contains information about the import schema operation into project 'WCFProducts.Database' on computer 'DESKTOP-652APCE' by user 'Lucas'.
+16/09/2020 01:33:52	Import of database schema has started.
+16/09/2020 01:33:55	Gathering database credentials
+16/09/2020 01:33:55	Gathering database options
+16/09/2020 01:33:55	Gathering users
+16/09/2020 01:33:55	Gathering roles
+16/09/2020 01:33:55	Gathering application roles
+16/09/2020 01:33:55	Gathering role memberships
+16/09/2020 01:33:55	Gathering filegroups
+16/09/2020 01:33:55	Gathering full-text catalogs
+16/09/2020 01:33:55	Gathering assemblies
+16/09/2020 01:33:55	Gathering certificates
+16/09/2020 01:33:55	Gathering asymmetric keys
+16/09/2020 01:33:55	Gathering symmetric keys
+16/09/2020 01:33:55	Gathering encrypted symmetric keys
+16/09/2020 01:33:55	Gathering schemas
+16/09/2020 01:33:55	Gathering XML schema collections
+16/09/2020 01:33:55	Gathering user-defined data types
+16/09/2020 01:33:55	Gathering user-defined types
+16/09/2020 01:33:55	Gathering table types
+16/09/2020 01:33:55	Gathering unique keys for table types
+16/09/2020 01:33:55	Gathering primary keys for table types
+16/09/2020 01:33:55	Gathering indexes for table types
+16/09/2020 01:33:55	Gathering check constraints for table types
+16/09/2020 01:33:55	Gathering default constraints for table types
+16/09/2020 01:33:55	Gathering partition functions
+16/09/2020 01:33:55	Gathering partition schemes
+16/09/2020 01:33:55	Gathering functions
+16/09/2020 01:33:55	Gathering encrypted functions
+16/09/2020 01:33:55	Gathering aggregates
+16/09/2020 01:33:55	Gathering procedures
+16/09/2020 01:33:55	Gathering encrypted procedures
+16/09/2020 01:33:55	Gathering tables
+16/09/2020 01:33:55	Gathering primary keys
+16/09/2020 01:33:55	Gathering unique constraints
+16/09/2020 01:33:55	Gathering foreign keys
+16/09/2020 01:33:55	Gathering default constraints
+16/09/2020 01:33:55	Gathering check constraints
+16/09/2020 01:33:55	Gathering views
+16/09/2020 01:33:55	Gathering encrypted views
+16/09/2020 01:33:55	Gathering indexes
+16/09/2020 01:33:55	Gathering statistics
+16/09/2020 01:33:55	Gathering full-text index stoplists
+16/09/2020 01:33:55	Gathering search property lists
+16/09/2020 01:33:55	Gathering search properties
+16/09/2020 01:33:55	Gathering full-text indexes
+16/09/2020 01:33:55	Gathering column store indexes
+16/09/2020 01:33:55	Gathering spatial indexes
+16/09/2020 01:33:55	Gathering XML indexes
+16/09/2020 01:33:55	Gathering Selective XML indexes
+16/09/2020 01:33:55	Gathering encrypted triggers
+16/09/2020 01:33:55	Gathering triggers
+16/09/2020 01:33:55	Gathering encrypted and clr ddl triggers
+16/09/2020 01:33:55	Gathering ddl triggers
+16/09/2020 01:33:55	Gathering synonyms
+16/09/2020 01:33:55	Gathering defaults
+16/09/2020 01:33:55	Gathering data constraint uddt bindings
+16/09/2020 01:33:55	Gathering rules
+16/09/2020 01:33:55	Gathering data constraint uddt bindings
+16/09/2020 01:33:55	Gathering message types
+16/09/2020 01:33:55	Gathering queues
+16/09/2020 01:33:55	Gathering contracts
+16/09/2020 01:33:55	Gathering services
+16/09/2020 01:33:55	Gathering event notifications
+16/09/2020 01:33:55	Gathering remote service bindings
+16/09/2020 01:33:55	Gathering broker priorities
+16/09/2020 01:33:55	Gathering signatures
+16/09/2020 01:33:55	Gathering data compression options
+16/09/2020 01:33:55	Gathering sequence types
+16/09/2020 01:33:55	Gathering security policies
+16/09/2020 01:33:55	Gather column encryption keys
+16/09/2020 01:33:55	Gathering column master keys
+16/09/2020 01:33:55	Gathering external data sources
+16/09/2020 01:33:55	Gathering external file formats
+16/09/2020 01:33:55	Gathering external tables
+16/09/2020 01:33:55	Gathering extended properties
+16/09/2020 01:33:55	Gathering credentials
+16/09/2020 01:33:55	Gathering logins
+16/09/2020 01:33:55	Gathering server audits
+16/09/2020 01:33:56	Scanning project for duplicate elements
+16/09/2020 01:33:56	Finished duplicate element processing
+16/09/2020 01:33:56	Finished importing database.
+16/09/2020 01:33:56	A summary of the import was saved to the following location: C:\Users\Lucas\Desktop\Github\WCFProducts\WCFProducts\WCFProducts.Database\Import Schema Logs\WCFProducts.Database_20200916043352.log
+16/09/2020 01:33:56	Click Finish to continue...

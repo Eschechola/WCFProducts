@@ -1,34 +1,79 @@
-﻿using WCFProducts.Data.DTO;
+﻿using System;
 using WCFProducts.Interfaces;
+using WCFProducts.Data.Entities;
+using WCFProducts.Data.Interfaces;
+using WCFProducts.Data.Repository;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 
 namespace WCFProducts
 {
     public class WCFProducts : IWCFProducts
     {
-        public ProductDTO InsertCustomer(ProductDTO productDTO)
+        private readonly IProductRepository _productRepository;
+
+        public WCFProducts()
         {
-            return new ProductDTO();
+            _productRepository = new ProductRepository();
         }
 
-        public ProductDTO UpdateCustomer(ProductDTO productDTO)
+        public async Task<Product> InsertProduct(Product product)
         {
-            return new ProductDTO();
+            try
+            {
+               return await _productRepository.InsertProduct(product);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
-        public void DeleteCustomer(int id)
+        public async Task<Product> UpdateProduct(Product product)
         {
-            
+            try
+            {
+                return await _productRepository.UpdateProduct(product);
+
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
-        public ProductDTO GetCustomer(int id)
+        public async Task DeleteProduct(int id)
         {
-            return new ProductDTO();
+            try
+            {
+                await _productRepository.DeleteProduct(id);
+            }
+            catch (Exception)
+            {}
         }
 
-        public IList<ProductDTO> GetAllCustomers()
+        public async Task<Product> GetProduct(int id)
         {
-            return new List<ProductDTO>();
+            try
+            {
+                return await _productRepository.GetProduct(id);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public async Task<IList<Product>> GetAllProducts()
+        {
+            try
+            {
+                return await _productRepository.GetAllProducts();
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
     }
 }

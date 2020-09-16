@@ -1,5 +1,6 @@
 ﻿using System.ServiceModel;
-using WCFProducts.Data.DTO;
+using WCFProducts.Data.Entities;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 
 namespace WCFProducts.Interfaces
@@ -8,18 +9,18 @@ namespace WCFProducts.Interfaces
     public interface IWCFProducts
     {
         [OperationContract]
-        ProductDTO InsertCustomer(ProductDTO productDTO);
+        Task<Product> InsertProduct(Product product);
 
         [OperationContract]
-        ProductDTO UpdateCustomer(ProductDTO productDTO);
+        Task<Product> UpdateProduct(Product product);
 
         [OperationContract]
-        void DeleteCustomer(int id);
+        Task DeleteProduct(int id);
 
         [OperationContract]
-        ProductDTO GetCustomer(int id);
+        Task<Product> GetProduct(int id);
 
         [OperationContract]
-        IList<ProductDTO> GetAllCustomers();
+        Task<IList<Product>> GetAllProducts();
     }
 }

@@ -43,8 +43,6 @@ namespace WCFProducts.Data.Context
 
             Fill(procedureName, out command, parammeters);
 
-            await command.ExecuteNonQueryAsync();
-
             return await command.ExecuteReaderAsync();
         }
 

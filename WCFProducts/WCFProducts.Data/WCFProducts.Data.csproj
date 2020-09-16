@@ -44,10 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\SqlContext.cs" />
-    <Compile Include="DTO\ProductDTO.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Interfaces\IProductRepository.cs" />
-    <Compile Include="Mappers\ProductMap.cs" />
+    <Compile Include="Mappers\ProductMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
   </ItemGroup>
